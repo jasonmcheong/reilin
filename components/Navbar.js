@@ -48,16 +48,15 @@ const Navbar = () => (
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                max-width: 800px;
+                max-width: 1100px;
                 margin: 0 auto;
             }
 
             ul {
-                max-width: 800px;
+                max-width: 1100px;
                 width: 100%;
                 margin: 0 auto;
                 color: #fff;
-                list-style: none;
                 display: flex;
                 justify-content: flex-end;
             }
