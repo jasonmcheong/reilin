@@ -47,6 +47,7 @@ const Footer = () => (
             .footer-nav {
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr 0.8fr;
+                padding: 50px 0;
             }
 
             .copyright {
