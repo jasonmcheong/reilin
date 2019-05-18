@@ -9,13 +9,14 @@ const Index = () => (
     </Layout>
 );
 
-Index.getInitialProps = async function() {
-    const res = await fetch(); // api url goes here
-    const data = await res.json();
+/* Fetch URL of content when ready */
+// Index.getInitialProps = async function() {
+//     const res = await fetch();
+//     const data = await res.json();
 
-    return {
-        data: data,
-    };
-};
+//     return {
+//         data: data,
+//     };
+// };
 
 export default Index;
