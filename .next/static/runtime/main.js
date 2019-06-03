@@ -6655,7 +6655,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      source_map_support_1.rewriteStacktrace(error, "/Users/jcheong1/Desktop/reilin/.next");
+      source_map_support_1.rewriteStacktrace(error, "C:\\Users\\Jason\\Desktop\\reilin\\.next");
       return error;
     }
   };
