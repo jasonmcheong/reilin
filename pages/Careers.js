@@ -12,6 +12,9 @@ const globalStyles = `
         text-decoration: none;
         font-family: Tahoma;
     }
+    h1, h2, h3, h4, h5 {
+        font-family: 'Vollkorn', serif;
+    }
 `;
 
 const Careers = () => (
@@ -90,7 +93,6 @@ const Careers = () => (
             }
             .career-post h3 {
                 font-size: 2rem;
-                font-family: 'Vollkorn', serif;
                 padding: 1.2rem 0;
                 position: relative;
             }
