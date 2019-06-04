@@ -1,5 +1,5 @@
 /*
- ** TODO: Mobile styling is finished. Next steps: style tablet and desktop
+ ** TODO: Mobile styling is finished. Next steps: style tablet and desktop view
  */
 import Head from 'next/head';
 
@@ -14,6 +14,24 @@ const globalStyles = `
     }
     h1, h2, h3, h4, h5 {
         font-family: 'Vollkorn', serif;
+    }
+    h1 {
+        font-size: 2.625rem;
+    }
+    h2 {
+        font-size: 2.25rem;
+    }
+    h3 {
+        font-size: 1.875rem;
+    }
+    h4 {
+        font-size: 1.5rem;
+    }
+    h5 {
+        font-size: 1.25rem;
+    }
+    p, a {
+        font-size: 1.125rem;
     }
 `;
 
@@ -53,9 +71,6 @@ const Careers = () => (
         </div>
 
         <style jsx>{`
-            .Careers {
-                font-size: 1.375rem;
-            }
             .description,
             .career-list {
                 max-width: 85%;
@@ -92,7 +107,6 @@ const Careers = () => (
                 margin: 1.5rem 0;
             }
             .career-post h3 {
-                font-size: 2rem;
                 padding: 1.2rem 0;
                 position: relative;
             }

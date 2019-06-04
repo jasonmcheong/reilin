@@ -1,3 +1,6 @@
+/*
+ ** TODO: Mobile styling is finished. Next steps: style tablet and desktop view
+ */
 import Head from 'next/head';
 
 const globalStyles = `
@@ -18,8 +21,17 @@ const globalStyles = `
     h2 {
         font-size: 2.25rem;
     }
-    p {
-        font-size: 1.375rem;
+    h3 {
+        font-size: 1.875rem;
+    }
+    h4 {
+        font-size: 1.5rem;
+    }
+    h5 {
+        font-size: 1.25rem;
+    }
+    p, a {
+        font-size: 1.125rem;
     }
 `;
 
