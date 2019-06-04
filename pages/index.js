@@ -32,7 +32,7 @@ const globalStyles = `
     h5 {
         font-size: 1.25rem;
     }
-    p, a {
+    p, a, li {
         font-size: 1.125rem;
     }
 `;
