@@ -1,3 +1,6 @@
+/*
+ ** TODO: Mobile styling is finished. Next steps: style tablet and desktop view
+ */
 import Fetch from 'isomorphic-unfetch';
 
 import Head from 'next/head';
