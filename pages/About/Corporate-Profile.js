@@ -37,7 +37,7 @@ const CorporateProfile = () => (
             <style type="text/css">{globalStyles}</style>
             <link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet" />
         </Head>
-        <div>
+        <div className="desc-head">
             <img src="https://via.placeholder.com/300x200" alt="" />
             <div className="desc">
                 <p className="info container">
@@ -46,7 +46,7 @@ const CorporateProfile = () => (
                 </p>
             </div>
         </div>
-        <div className="container profile">
+        <div className="profile container">
             <h2>Corporate Profile</h2>
             <ul>
                 <li>Anti-Corruption Policy (PDF)</li>
@@ -62,6 +62,9 @@ const CorporateProfile = () => (
         </div>
 
         <style jsx>{`
+            .desc-head img {
+                width: 100%;
+            }
             .desc {
                 color: #fff;
                 background: #1a5c8c;
@@ -86,6 +89,9 @@ const CorporateProfile = () => (
             }
             .profile {
                 padding: 2rem 0;
+            }
+            ul {
+                list-style: none;
             }
             ul li {
                 margin: 0.8rem 0;
